@@ -1,3 +1,5 @@
+package Loops;
+
 public class pyramid {
     public static void main(String [] args){
         int n = 4;

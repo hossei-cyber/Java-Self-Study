@@ -1,3 +1,5 @@
+package Loops;
+
 public class GCD {
     public static void main (String[] args){
         int a = 5;
@@ -9,6 +11,6 @@ public class GCD {
                 ans = i;
             }
         }
-        System.out.println("GCD of " + a + " and " + b + " is " + ans);
+        System.out.println("Loops.GCD of " + a + " and " + b + " is " + ans);
     }
 }

@@ -1,5 +1,5 @@
-// Exercise 1
-// factorial
+package Loops;// Exercise 1
+// Loops.factorial
 import java.util.Scanner;
 public class factorial {
     public static void main (String[] args) {

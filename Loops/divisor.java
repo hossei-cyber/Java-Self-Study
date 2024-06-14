@@ -1,3 +1,5 @@
+package Loops;
+
 public class divisor {
     public static void main (String [] args){
         int n = 10;

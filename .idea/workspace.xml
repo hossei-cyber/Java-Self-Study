@@ -4,28 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74c2074d-7938-484f-8858-4fd32e11c51e" name="Changes" comment="2nd day">
-      <change afterPath="$PROJECT_DIR$/.idea/Java-Self-Study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java-Self-Study/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java-Self-Study/.idea/Java-Self-Study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java-Self-Study/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java-Self-Study/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java-Self-Study/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java-Self-Study/GCD.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java-Self-Study/LCM.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java-Self-Study/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java-Self-Study/divisor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java-Self-Study/factorial.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java-Self-Study/pyramid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/Loops/GCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/Loops/LCM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Loops/divisor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/Loops/factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/Loops/pyramid.java" afterDir="false" />
+    <list default="true" id="74c2074d-7938-484f-8858-4fd32e11c51e" name="Changes" comment="organisation">
+      <change afterPath="$PROJECT_DIR$/Loops/isPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Loops/nextPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Loops/string.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Methods/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Methods/firstDigitWithLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Methods/firstDigitWithoutLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Methods/printPrimefactorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Methods/returnValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Self-Study/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Self-Study/GCD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Self-Study/LCM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Self-Study/divisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Self-Study/factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Self-Study/pyramid.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +48,10 @@
     &quot;accountId&quot;: &quot;22ff7e98-748e-4a94-9f5f-21e16135885d&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -65,25 +63,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.GCD.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LCM.executor&quot;: &quot;Run&quot;,
-    &quot;Application.divisor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.pyramid.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.GCD.executor": "Run",
+    "Application.LCM.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.divisor.executor": "Run",
+    "Application.factorial.executor": "Run",
+    "Application.firstDigitWithLoop.executor": "Run",
+    "Application.firstDigitWithoutLoop.executor": "Run",
+    "Application.isPrime.executor": "Run",
+    "Application.nextPrime.executor": "Run",
+    "Application.printPrimefactorization.executor": "Run",
+    "Application.pyramid.executor": "Run",
+    "Application.returnValue.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Loops" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -103,7 +113,9 @@
       <workItem from="1718023029160" duration="2633000" />
       <workItem from="1718093522640" duration="5228000" />
       <workItem from="1718110631142" duration="610000" />
-      <workItem from="1718375364300" duration="401000" />
+      <workItem from="1718375364300" duration="1746000" />
+      <workItem from="1718401397274" duration="2371000" />
+      <workItem from="1718448711678" duration="4558000" />
     </task>
     <task id="LOCAL-00001" summary="1st exercise">
       <option name="closed" value="true" />
@@ -121,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718098946420</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2nd day">
+      <option name="closed" value="true" />
+      <created>1718375767431</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718375767431</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

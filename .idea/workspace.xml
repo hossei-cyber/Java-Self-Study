@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74c2074d-7938-484f-8858-4fd32e11c51e" name="Changes" comment="organisation">
-      <change afterPath="$PROJECT_DIR$/Loops/isPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Loops/nextPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Loops/string.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Methods/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Methods/firstDigitWithLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Methods/firstDigitWithoutLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Methods/printPrimefactorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Methods/returnValue.java" afterDir="false" />
+    <list default="true" id="74c2074d-7938-484f-8858-4fd32e11c51e" name="Changes" comment="methods">
+      <change afterPath="$PROJECT_DIR$/Arrays/arrayTraverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/decrementvalues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/lessThan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/reversedTraverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Self-Study/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Self-Study/GCD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Self-Study/LCM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Self-Study/divisor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Self-Study/factorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Self-Study/pyramid.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +38,10 @@
     &quot;accountId&quot;: &quot;22ff7e98-748e-4a94-9f5f-21e16135885d&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -68,16 +58,21 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.GCD.executor": "Run",
     "Application.LCM.executor": "Run",
+    "Application.LessThan.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.arrayTraverse.executor": "Run",
+    "Application.decrementvalues.executor": "Run",
     "Application.divisor.executor": "Run",
     "Application.factorial.executor": "Run",
     "Application.firstDigitWithLoop.executor": "Run",
     "Application.firstDigitWithoutLoop.executor": "Run",
     "Application.isPrime.executor": "Run",
+    "Application.lessThan.executor": "Run",
     "Application.nextPrime.executor": "Run",
     "Application.printPrimefactorization.executor": "Run",
     "Application.pyramid.executor": "Run",
     "Application.returnValue.executor": "Run",
+    "Application.reversedTraverse.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -115,7 +110,8 @@
       <workItem from="1718110631142" duration="610000" />
       <workItem from="1718375364300" duration="1746000" />
       <workItem from="1718401397274" duration="2371000" />
-      <workItem from="1718448711678" duration="4558000" />
+      <workItem from="1718448711678" duration="5212000" />
+      <workItem from="1718475839428" duration="1002000" />
     </task>
     <task id="LOCAL-00001" summary="1st exercise">
       <option name="closed" value="true" />
@@ -141,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718375767431</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="methods">
+      <option name="closed" value="true" />
+      <created>1718453735450</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718453735450</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +177,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st exercise" />
     <MESSAGE value="2nd day" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd day" />
+    <MESSAGE value="methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="methods" />
   </component>
 </project>

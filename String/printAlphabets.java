@@ -13,7 +13,6 @@ public class printAlphabets {
         if (endIndex >= s.length()) {
             endIndex = s.length() - 1;
         }
-        // Print the substring with spaces
         System.out.print(s.substring(startIndex, endIndex + 1));
     }
 }

@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c2074d-7938-484f-8858-4fd32e11c51e" name="Changes" comment="arrays">
-      <change afterPath="$PROJECT_DIR$/folderArray/findAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/folderArray/findMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/folderArray/sortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/folderArray/sumOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Complex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/ThisReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/chainingFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/grandMom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/one.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/staticMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/twoConstructors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,13 +66,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Driver.executor": "Run",
     "Application.GCD.executor": "Run",
     "Application.LCM.executor": "Run",
     "Application.LessThan.executor": "Run",
+    "Application.Sum.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.Test1.executor": "Run",
+    "Application.Test2.executor": "Run",
+    "Application.Test3.executor": "Run",
+    "Application.TestingAgain.executor": "Run",
+    "Application.Testingagain.executor": "Run",
     "Application.arrayTraverse.executor": "Run",
     "Application.decrementvalues.executor": "Run",
     "Application.divisor.executor": "Run",
+    "Application.driver.executor": "Run",
     "Application.factorial.executor": "Run",
     "Application.findAverage.executor": "Run",
     "Application.findMaximum.executor": "Run",
@@ -70,13 +88,23 @@
     "Application.firstDigitWithoutLoop.executor": "Run",
     "Application.isPrime.executor": "Run",
     "Application.lessThan.executor": "Run",
+    "Application.main.executor": "Run",
+    "Application.newTest.executor": "Run",
     "Application.nextPrime.executor": "Run",
+    "Application.nice.executor": "Run",
     "Application.printPrimefactorization.executor": "Run",
     "Application.pyramid.executor": "Run",
     "Application.returnValue.executor": "Run",
     "Application.reversedTraverse.executor": "Run",
+    "Application.show.executor": "Run",
+    "Application.show2.executor": "Run",
     "Application.sortedArray.executor": "Run",
     "Application.sumOfArray.executor": "Run",
+    "Application.test.executor": "Run",
+    "Application.test4.executor": "Run",
+    "Application.testagain.executor": "Run",
+    "Application.testing.executor": "Run",
+    "Application.testingagain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -116,7 +144,10 @@
       <workItem from="1718401397274" duration="2371000" />
       <workItem from="1718448711678" duration="5212000" />
       <workItem from="1718475839428" duration="3548000" />
-      <workItem from="1718697082853" duration="1158000" />
+      <workItem from="1718697082853" duration="1243000" />
+      <workItem from="1719056224771" duration="4866000" />
+      <workItem from="1719069066022" duration="3364000" />
+      <workItem from="1719139831243" duration="7168000" />
     </task>
     <task id="LOCAL-00001" summary="1st exercise">
       <option name="closed" value="true" />
@@ -158,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718477096172</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="arrays">
+      <option name="closed" value="true" />
+      <created>1718716732281</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718716732281</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,21 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74c2074d-7938-484f-8858-4fd32e11c51e" name="Changes" comment="arrays">
-      <change afterPath="$PROJECT_DIR$/OOP/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Complex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/ThisReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/chainingFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/grandMom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/one.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/staticMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/twoConstructors.java" afterDir="false" />
+    <list default="true" id="74c2074d-7938-484f-8858-4fd32e11c51e" name="Changes" comment="oop">
+      <change afterPath="$PROJECT_DIR$/String/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/binaryTodecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/changeCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/decimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/extraLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/printAlphabets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/reverseAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/slice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loops/string.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +66,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Anagram.executor": "Run",
     "Application.Driver.executor": "Run",
     "Application.GCD.executor": "Run",
     "Application.LCM.executor": "Run",
     "Application.LessThan.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.Solution.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test1.executor": "Run",
@@ -78,9 +81,13 @@
     "Application.TestingAgain.executor": "Run",
     "Application.Testingagain.executor": "Run",
     "Application.arrayTraverse.executor": "Run",
+    "Application.binaryTodecimal.executor": "Run",
+    "Application.changeCase.executor": "Run",
+    "Application.decimalToBinary.executor": "Run",
     "Application.decrementvalues.executor": "Run",
     "Application.divisor.executor": "Run",
     "Application.driver.executor": "Run",
+    "Application.extraLetter.executor": "Run",
     "Application.factorial.executor": "Run",
     "Application.findAverage.executor": "Run",
     "Application.findMaximum.executor": "Run",
@@ -92,12 +99,16 @@
     "Application.newTest.executor": "Run",
     "Application.nextPrime.executor": "Run",
     "Application.nice.executor": "Run",
+    "Application.pattern.executor": "Run",
+    "Application.printAlphabets.executor": "Run",
     "Application.printPrimefactorization.executor": "Run",
     "Application.pyramid.executor": "Run",
     "Application.returnValue.executor": "Run",
+    "Application.reverseAString.executor": "Run",
     "Application.reversedTraverse.executor": "Run",
     "Application.show.executor": "Run",
     "Application.show2.executor": "Run",
+    "Application.slice.executor": "Run",
     "Application.sortedArray.executor": "Run",
     "Application.sumOfArray.executor": "Run",
     "Application.test.executor": "Run",
@@ -148,6 +159,7 @@
       <workItem from="1719056224771" duration="4866000" />
       <workItem from="1719069066022" duration="3364000" />
       <workItem from="1719139831243" duration="7168000" />
+      <workItem from="1719175474278" duration="2219000" />
     </task>
     <task id="LOCAL-00001" summary="1st exercise">
       <option name="closed" value="true" />
@@ -197,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718716732281</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="oop">
+      <option name="closed" value="true" />
+      <created>1719175504717</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719175504717</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +251,7 @@
     <MESSAGE value="2nd day" />
     <MESSAGE value="methods" />
     <MESSAGE value="arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrays" />
+    <MESSAGE value="oop" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop" />
   </component>
 </project>

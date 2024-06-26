@@ -23,6 +23,7 @@ class findAverage {
             a[i]=s.nextInt();
         }
         System.out.print(average(a));
+        s.close();
     }
 }
 

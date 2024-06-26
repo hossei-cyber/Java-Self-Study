@@ -1,3 +1,5 @@
+
+import java.util.ArrayList;
 class insertFromArray{
     public static ArrayList<Integer> fillArrayList(int arr[], int n)
     {
@@ -14,9 +16,9 @@ class insertFromArray{
 
     public static void main(String[] args){
         int[] arr = {1, 2, 3, 4, 5};
-        ArrayList<Integers> result = fillArrayList(arr, arr.length);
+        ArrayList<Integer> result = fillArrayList(arr, arr.length);
 
-        SYstem.out.println("ArrayList filled from Array:")
+        System.out.println("ArrayList filled from Array:");
         for(int num : result){
             System.out.println(num + " ");
         }

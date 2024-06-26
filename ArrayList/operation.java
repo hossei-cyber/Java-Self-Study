@@ -9,7 +9,7 @@ class operation{
     }
     //Sorting in Ascending order
     public static void sort_asc(ArrayList<Integer> A){
-        Collections.sort_asc(A);
+        Collections.sort(A);
     }
     //Reverse an ArrayList
     public static void reverse(ArrayList<Integer> A){
@@ -18,12 +18,12 @@ class operation{
 
     // size of ArrayList
     public static void size(ArrayList<Integer> A){
-        return A.size();
+        System.out.println(A.size());
     }
 
     //Sorting in descending Order
     public static void sort_desc(ArrayList<Integer> A){
-        Collections.sort_desc(A, Collections.reverseOrder());
+        Collections.sort(A, Collections.reverseOrder());
     }
 
     // printing the elements of ArrayList
@@ -34,7 +34,7 @@ class operation{
     }
 
     public static void main (String []args ){
-        ArrayList<Integers> list = new Arraylist<>();
+        ArrayList<Integer> list = new ArrayList<Integer>();
 
         //Using add method
         operation.add(list, 5);
@@ -43,21 +43,30 @@ class operation{
         operation.add(list, 6);
         operation.add(list, 1);
 
-        System.out.println("Initial elements: " + operation.elements(list));
+        System.out.println("Initial elements: ");
+        operation.elements(list);
 
         //using sort method
         operation.sort_asc(list);
-        System.out.println("sorted- in ascending order: " + operation.elements(list));
+        System.out.println();
+        System.out.println("sorted- in ascending order: ");
+        operation.elements(list);
 
         //using reverse method
         operation.reverse(list);
-        System.out.println("reversed: " + operation.elements(list));
+        System.out.println();
+        System.out.println("reversed: ");
+        operation.elements(list);
 
         //using size method
-        System.out.println("size: " + operation.size(list));
+        System.out.println();
+        System.out.println("size: ");
+        operation.size(list);
 
         //using sorting in descending order
         operation.sort_desc(list);
-        System.out.println("sorted- in descending order " + operation.elements(list));
+
+        System.out.println("sorted- in descending order: ");
+        operation.elements(list);
     }
 }

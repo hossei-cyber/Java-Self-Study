@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 class Distinct{
 
 public static void main(String[] args){

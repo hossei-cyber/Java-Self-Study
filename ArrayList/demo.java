@@ -1,5 +1,4 @@
-import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
 
 class demo{
     public static void main (String [] args){
@@ -16,12 +15,12 @@ class demo{
             System.out.println(arrli);
 
             //remove the element at index 1
-            arrli.remove(1);
+            arrli.remove(3);
             System.out.println(arrli);
 
             //print the elemnets one by one
-            for(int i = 0; i <= arrli.size(); i++){
-                System.out.println(arrli.get(i) + " ");
+            for(int j = 0; j <= arrli.size(); j++){
+                System.out.println(arrli.get(j) + " ");
             }
 
 

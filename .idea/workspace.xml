@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74c2074d-7938-484f-8858-4fd32e11c51e" name="Changes" comment="oop">
-      <change afterPath="$PROJECT_DIR$/String/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/binaryTodecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/changeCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/decimalToBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/extraLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/pattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/printAlphabets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/reverseAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/slice.java" afterDir="false" />
+    <list default="true" id="74c2074d-7938-484f-8858-4fd32e11c51e" name="Changes" comment="string">
+      <change afterPath="$PROJECT_DIR$/Advance/MethodReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advance/bigInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advance/fibonachiSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advance/prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/MyInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loops/string.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +64,7 @@
     "Application.GCD.executor": "Run",
     "Application.LCM.executor": "Run",
     "Application.LessThan.executor": "Run",
+    "Application.MethodReference.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.Sum.executor": "Run",
@@ -81,14 +75,18 @@
     "Application.TestingAgain.executor": "Run",
     "Application.Testingagain.executor": "Run",
     "Application.arrayTraverse.executor": "Run",
+    "Application.bigInteger.executor": "Run",
     "Application.binaryTodecimal.executor": "Run",
     "Application.changeCase.executor": "Run",
     "Application.decimalToBinary.executor": "Run",
     "Application.decrementvalues.executor": "Run",
     "Application.divisor.executor": "Run",
     "Application.driver.executor": "Run",
+    "Application.driver4.executor": "Run",
     "Application.extraLetter.executor": "Run",
     "Application.factorial.executor": "Run",
+    "Application.fibonachi.executor": "Run",
+    "Application.fibonachiSeries.executor": "Run",
     "Application.findAverage.executor": "Run",
     "Application.findMaximum.executor": "Run",
     "Application.firstDigitWithLoop.executor": "Run",
@@ -100,6 +98,7 @@
     "Application.nextPrime.executor": "Run",
     "Application.nice.executor": "Run",
     "Application.pattern.executor": "Run",
+    "Application.prime.executor": "Run",
     "Application.printAlphabets.executor": "Run",
     "Application.printPrimefactorization.executor": "Run",
     "Application.pyramid.executor": "Run",
@@ -116,6 +115,7 @@
     "Application.testagain.executor": "Run",
     "Application.testing.executor": "Run",
     "Application.testingagain.executor": "Run",
+    "Application.yourInt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -159,7 +159,10 @@
       <workItem from="1719056224771" duration="4866000" />
       <workItem from="1719069066022" duration="3364000" />
       <workItem from="1719139831243" duration="7168000" />
-      <workItem from="1719175474278" duration="2219000" />
+      <workItem from="1719175474278" duration="2410000" />
+      <workItem from="1719259804864" duration="3504000" />
+      <workItem from="1719557964905" duration="599000" />
+      <workItem from="1719686254158" duration="4973000" />
     </task>
     <task id="LOCAL-00001" summary="1st exercise">
       <option name="closed" value="true" />
@@ -217,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719175504717</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="string">
+      <option name="closed" value="true" />
+      <created>1719177717570</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719177717570</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +263,7 @@
     <MESSAGE value="methods" />
     <MESSAGE value="arrays" />
     <MESSAGE value="oop" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop" />
+    <MESSAGE value="string" />
+    <option name="LAST_COMMIT_MESSAGE" value="string" />
   </component>
 </project>

@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c2074d-7938-484f-8858-4fd32e11c51e" name="Changes" comment="Advance">
-      <change afterPath="$PROJECT_DIR$/Advance/ExceptDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advance/ExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advance/FileHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advance/Multithread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advance/Mutithread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advance/methodCalling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advance/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collectionframework/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collectionframework/bulkOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collectionframework/even.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collectionframework/generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collectionframework/toArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LambdaExpression/MethodReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LambdaExpression/funcInterWithLe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LambdaExpression/funcInterWithoutLE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/streamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +79,7 @@
     "Application.Multithread2.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.Stream.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test1.executor": "Run",
@@ -86,6 +90,7 @@
     "Application.arrayTraverse.executor": "Run",
     "Application.bigInteger.executor": "Run",
     "Application.binaryTodecimal.executor": "Run",
+    "Application.bulkOperation.executor": "Run",
     "Application.changeCase.executor": "Run",
     "Application.decimalToBinary.executor": "Run",
     "Application.decrementvalues.executor": "Run",
@@ -100,6 +105,9 @@
     "Application.findMaximum.executor": "Run",
     "Application.firstDigitWithLoop.executor": "Run",
     "Application.firstDigitWithoutLoop.executor": "Run",
+    "Application.funcInterWithLe.executor": "Run",
+    "Application.funcInterWithoutLE.executor": "Run",
+    "Application.generic.executor": "Run",
     "Application.isPrime.executor": "Run",
     "Application.lessThan.executor": "Run",
     "Application.main.executor": "Run",
@@ -119,12 +127,15 @@
     "Application.show2.executor": "Run",
     "Application.slice.executor": "Run",
     "Application.sortedArray.executor": "Run",
+    "Application.streamExample.executor": "Run",
     "Application.sumOfArray.executor": "Run",
     "Application.test.executor": "Run",
     "Application.test4.executor": "Run",
     "Application.testagain.executor": "Run",
     "Application.testing.executor": "Run",
     "Application.testingagain.executor": "Run",
+    "Application.toArray.executor": "Run",
+    "Application.tree.executor": "Run",
     "Application.yourInt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -134,6 +145,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -141,6 +153,26 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Loops" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collectionframework.Test1" />
+      <module name="Java-Self-Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collectionframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -173,7 +205,13 @@
       <workItem from="1719259804864" duration="3504000" />
       <workItem from="1719557964905" duration="599000" />
       <workItem from="1719686254158" duration="5042000" />
-      <workItem from="1719739598586" duration="7393000" />
+      <workItem from="1719739598586" duration="8283000" />
+      <workItem from="1719851788416" duration="4099000" />
+      <workItem from="1719948073370" duration="3117000" />
+      <workItem from="1719987372188" duration="5426000" />
+      <workItem from="1720076248979" duration="599000" />
+      <workItem from="1720170636418" duration="11000" />
+      <workItem from="1720189687492" duration="7306000" />
     </task>
     <task id="LOCAL-00001" summary="1st exercise">
       <option name="closed" value="true" />
@@ -247,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719702489469</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Advance">
+      <option name="closed" value="true" />
+      <created>1719756373163</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719756373163</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,5 +332,16 @@
     <MESSAGE value="string" />
     <MESSAGE value="Advance" />
     <option name="LAST_COMMIT_MESSAGE" value="Advance" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Collectionframework/generic.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

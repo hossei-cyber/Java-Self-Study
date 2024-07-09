@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74c2074d-7938-484f-8858-4fd32e11c51e" name="Changes" comment="Advance">
-      <change afterPath="$PROJECT_DIR$/Collectionframework/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collectionframework/bulkOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collectionframework/even.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collectionframework/generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collectionframework/toArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LambdaExpression/MethodReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LambdaExpression/funcInterWithLe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LambdaExpression/funcInterWithoutLE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/streamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/tree.java" afterDir="false" />
+    <list default="true" id="74c2074d-7938-484f-8858-4fd32e11c51e" name="Changes" comment="various">
+      <change afterPath="$PROJECT_DIR$/ArrayList/listExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linkedlist/josephus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/OperationsOnStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/Paranthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/designer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/mid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/previousGreatest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/removeConsecutiveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/removeConsecutiveDuplicates2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/stockSpan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Lottery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/sieveOfEratosthenes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,10 +74,14 @@
     "Application.GCD.executor": "Run",
     "Application.LCM.executor": "Run",
     "Application.LessThan.executor": "Run",
+    "Application.ListExample.executor": "Run",
+    "Application.Lottery.executor": "Run",
     "Application.MethodReference.executor": "Run",
     "Application.Multithread.executor": "Run",
     "Application.Multithread2.executor": "Run",
+    "Application.OperationsOnStack.executor": "Run",
     "Application.Palindrome.executor": "Run",
+    "Application.Paranthesis.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.Stream.executor": "Run",
     "Application.Sum.executor": "Run",
@@ -94,6 +98,7 @@
     "Application.changeCase.executor": "Run",
     "Application.decimalToBinary.executor": "Run",
     "Application.decrementvalues.executor": "Run",
+    "Application.designer.executor": "Run",
     "Application.divisor.executor": "Run",
     "Application.driver.executor": "Run",
     "Application.driver4.executor": "Run",
@@ -109,24 +114,31 @@
     "Application.funcInterWithoutLE.executor": "Run",
     "Application.generic.executor": "Run",
     "Application.isPrime.executor": "Run",
+    "Application.josephus.executor": "Run",
     "Application.lessThan.executor": "Run",
     "Application.main.executor": "Run",
     "Application.methodCalling.executor": "Run",
+    "Application.mid.executor": "Run",
     "Application.newTest.executor": "Run",
     "Application.nextPrime.executor": "Run",
     "Application.nice.executor": "Run",
     "Application.pattern.executor": "Run",
+    "Application.previousGreatest.executor": "Run",
     "Application.prime.executor": "Run",
     "Application.printAlphabets.executor": "Run",
     "Application.printPrimefactorization.executor": "Run",
     "Application.pyramid.executor": "Run",
+    "Application.removeConsecutiveDuplicates.executor": "Run",
+    "Application.removeConsecutiveDuplicates2.executor": "Run",
     "Application.returnValue.executor": "Run",
     "Application.reverseAString.executor": "Run",
     "Application.reversedTraverse.executor": "Run",
     "Application.show.executor": "Run",
     "Application.show2.executor": "Run",
+    "Application.sieveOfEratosthenes.executor": "Run",
     "Application.slice.executor": "Run",
     "Application.sortedArray.executor": "Run",
+    "Application.stockSpan.executor": "Run",
     "Application.streamExample.executor": "Run",
     "Application.sumOfArray.executor": "Run",
     "Application.test.executor": "Run",
@@ -212,6 +224,10 @@
       <workItem from="1720076248979" duration="599000" />
       <workItem from="1720170636418" duration="11000" />
       <workItem from="1720189687492" duration="7306000" />
+      <workItem from="1720360575359" duration="3075000" />
+      <workItem from="1720419672121" duration="8263000" />
+      <workItem from="1720516097083" duration="111000" />
+      <workItem from="1720516302317" duration="5109000" />
     </task>
     <task id="LOCAL-00001" summary="1st exercise">
       <option name="closed" value="true" />
@@ -293,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719756373163</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="various">
+      <option name="closed" value="true" />
+      <created>1720360688614</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720360688614</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +355,8 @@
     <MESSAGE value="oop" />
     <MESSAGE value="string" />
     <MESSAGE value="Advance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Advance" />
+    <MESSAGE value="various" />
+    <option name="LAST_COMMIT_MESSAGE" value="various" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

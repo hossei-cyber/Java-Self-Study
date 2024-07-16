@@ -4,19 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74c2074d-7938-484f-8858-4fd32e11c51e" name="Changes" comment="various">
-      <change afterPath="$PROJECT_DIR$/ArrayList/listExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/josephus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/OperationsOnStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/Paranthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/designer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/mid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/previousGreatest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/removeConsecutiveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/removeConsecutiveDuplicates2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/stockSpan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Lottery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/sieveOfEratosthenes.java" afterDir="false" />
+    <list default="true" id="74c2074d-7938-484f-8858-4fd32e11c51e" name="Changes" comment="Stack">
+      <change afterPath="$PROJECT_DIR$/Alogrithms/bubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alogrithms/insertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alogrithms/quickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alogrithms/selectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linkedlist/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linkedlist/LinkedList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Loops/max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/HashTableSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/LinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deque/deletion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deque/insertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deque/max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deque/rotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/queueNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/queueUsing2Stacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/reversingKElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,15 +72,20 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Anagram.executor": "Run",
+    "Application.BinaryTree.executor": "Run",
     "Application.Driver.executor": "Run",
     "Application.ExceptDemo.executor": "Run",
     "Application.ExceptionHandling.executor": "Run",
     "Application.FileHandling.executor": "Run",
     "Application.GCD.executor": "Run",
+    "Application.HashTableSearch.executor": "Run",
     "Application.LCM.executor": "Run",
     "Application.LessThan.executor": "Run",
+    "Application.LinkedList.executor": "Run",
+    "Application.LinkedList2.executor": "Run",
     "Application.ListExample.executor": "Run",
     "Application.Lottery.executor": "Run",
+    "Application.Max.executor": "Run",
     "Application.MethodReference.executor": "Run",
     "Application.Multithread.executor": "Run",
     "Application.Multithread2.executor": "Run",
@@ -94,6 +104,7 @@
     "Application.arrayTraverse.executor": "Run",
     "Application.bigInteger.executor": "Run",
     "Application.binaryTodecimal.executor": "Run",
+    "Application.bubbleSort.executor": "Run",
     "Application.bulkOperation.executor": "Run",
     "Application.changeCase.executor": "Run",
     "Application.decimalToBinary.executor": "Run",
@@ -113,10 +124,13 @@
     "Application.funcInterWithLe.executor": "Run",
     "Application.funcInterWithoutLE.executor": "Run",
     "Application.generic.executor": "Run",
+    "Application.insertion.executor": "Run",
+    "Application.insertionSort.executor": "Run",
     "Application.isPrime.executor": "Run",
     "Application.josephus.executor": "Run",
     "Application.lessThan.executor": "Run",
     "Application.main.executor": "Run",
+    "Application.max.executor": "Run",
     "Application.methodCalling.executor": "Run",
     "Application.mid.executor": "Run",
     "Application.newTest.executor": "Run",
@@ -128,11 +142,16 @@
     "Application.printAlphabets.executor": "Run",
     "Application.printPrimefactorization.executor": "Run",
     "Application.pyramid.executor": "Run",
+    "Application.queueNodes.executor": "Run",
+    "Application.queueUsing2Stacks.executor": "Run",
     "Application.removeConsecutiveDuplicates.executor": "Run",
     "Application.removeConsecutiveDuplicates2.executor": "Run",
     "Application.returnValue.executor": "Run",
     "Application.reverseAString.executor": "Run",
     "Application.reversedTraverse.executor": "Run",
+    "Application.reversingKElements.executor": "Run",
+    "Application.rotation.executor": "Run",
+    "Application.selectionSort.executor": "Run",
     "Application.show.executor": "Run",
     "Application.show2.executor": "Run",
     "Application.sieveOfEratosthenes.executor": "Run",
@@ -227,7 +246,11 @@
       <workItem from="1720360575359" duration="3075000" />
       <workItem from="1720419672121" duration="8263000" />
       <workItem from="1720516097083" duration="111000" />
-      <workItem from="1720516302317" duration="5109000" />
+      <workItem from="1720516302317" duration="6335000" />
+      <workItem from="1720588896048" duration="6259000" />
+      <workItem from="1720773817836" duration="14745000" />
+      <workItem from="1720947482293" duration="7383000" />
+      <workItem from="1721024213498" duration="2874000" />
     </task>
     <task id="LOCAL-00001" summary="1st exercise">
       <option name="closed" value="true" />
@@ -317,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720360688614</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Stack">
+      <option name="closed" value="true" />
+      <created>1720525906027</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720525906027</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +387,8 @@
     <MESSAGE value="string" />
     <MESSAGE value="Advance" />
     <MESSAGE value="various" />
-    <option name="LAST_COMMIT_MESSAGE" value="various" />
+    <MESSAGE value="Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

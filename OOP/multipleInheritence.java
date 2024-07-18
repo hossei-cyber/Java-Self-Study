@@ -1,5 +1,5 @@
 package OOP;
-//Multilevel Inheritance
+//multiple inheritance
 interface one {
     public void print_Geek();
 }

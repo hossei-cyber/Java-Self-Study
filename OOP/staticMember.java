@@ -2,7 +2,7 @@ package OOP;
 class staticMember {
     String name;
     int id;
-    static int playerCount = 0;
+    static int playerCount = 0; //  static member which is shared by all objects of the class
     staticMember(String name){
         this.name = name;
         id = ++playerCount;

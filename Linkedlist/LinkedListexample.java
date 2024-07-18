@@ -1,6 +1,6 @@
 package Linkedlist;
 
-class LinkedList {
+class LinkedListexample {
     Node head;
 
     static class Node{
@@ -11,7 +11,7 @@ class LinkedList {
             next = null;
         }
     }public static void main(String[] args){
-        LinkedList llist = new LinkedList();
+        LinkedListexample llist = new LinkedListexample();
         llist.head = new Node(1);
         Node second = new Node(2);
         Node third = new Node(3);

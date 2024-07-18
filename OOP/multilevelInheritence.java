@@ -1,6 +1,6 @@
 package OOP;
-
-public class Employee {
+//multilevel inheritance example
+class Employee {
     int id;
     int salary;
     Employee(int i, int s){
